@@ -1,0 +1,14 @@
+Chabib
+Consolas
+extralight
+grayscale
+Menlo
+mjsx
+mtsx
+Noto
+oklch
+Segoe
+solarwindcss
+stylex
+stylexjs
+subpaths

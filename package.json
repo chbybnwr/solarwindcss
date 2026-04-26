@@ -1,6 +1,6 @@
 {
   "name": "solarwindcss",
-  "version": "0.1.0",
+  "version": "0.28.0",
   "description": "Design tokens for Vicinage & StyleX",
   "license": "MIT",
   "type": "module",
