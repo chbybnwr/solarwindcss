@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@txe/tsconfig/tsconfig.base.json",
+    "@txe/tsconfig/tsconfig.library.json",
+    "@txe/tsconfig/tsconfig.vite.json"
+  ],
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.spec*.*", "src/test/**/*"],
+
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.build.tsbuildinfo",
+
+    "rootDir": "./src/",
+    "outDir": "./dist/"
+  }
+}
