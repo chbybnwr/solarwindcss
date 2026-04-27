@@ -1,0 +1,28 @@
+# filter
+
+## dropShadow
+
+```markdown
+| Token             | Value                                                                   |
+| ----------------- | ----------------------------------------------------------------------- |
+| dropShadow.xs     | drop-shadow(0 1px 1px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.05)))   |
+| dropShadow.sm     | drop-shadow(0 1px 2px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15)))   |
+| dropShadow.md     | drop-shadow(0 3px 3px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.12)))   |
+| dropShadow.lg     | drop-shadow(0 4px 4px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15)))   |
+| dropShadow.xl     | drop-shadow(0 9px 7px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.1)))    |
+| dropShadow['2xl'] | drop-shadow(0 25px 25px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15))) |
+```
+
+## blur
+
+```markdown
+| Token       | Value      |
+| ----------- | ---------- |
+| blur.xs     | blur(4px)  |
+| blur.sm     | blur(8px)  |
+| blur.md     | blur(12px) |
+| blur.lg     | blur(16px) |
+| blur.xl     | blur(24px) |
+| blur['2xl'] | blur(40px) |
+| blur['3xl'] | blur(64px) |
+```

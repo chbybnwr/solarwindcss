@@ -1,6 +1,7 @@
 /*
 
 !/src/
+!/docs/
 
 !/.npmignore
 !/.node-version
@@ -15,6 +16,7 @@
 !/*.ts
 
 !/LICENSE
+!/NOTICE
 !/README.md
 
 !/.gitatributes

@@ -18,13 +18,63 @@ import { color } from 'solarwindcss/color.stylex'
 function Example() {
   return (
     <div
-      {...apply(font.mono, {
-        color: color.green500,
-        backgroundColor: 'black',
-      })}
+      {...apply(
+        font.mono,
+        {
+          color: color.green500,
+          backgroundColor: 'black',
+        },
+        //
+      )}
     >
       hello, world
     </div>
   )
 }
 ```
+
+## API
+
+- [Responsive Design](docs/responsive-design.md)
+- [Colors](docs/colors.md)
+- [Spacing](docs/spacing.md)
+
+### Layout
+
+- [aspectRatio](docs/aspect-ratio.md)
+- [display](docs/display.md)
+
+### Sizing
+
+- [width](docs/width.md)
+
+### Typography
+
+- [fontFamily](docs/font-family.md)
+- [fontSize](docs/font-size.md)
+- [fontSmoothing](docs/font-smoothing.md)
+- [fontWeight](docs/font-weight.md)
+- [letterSpacing](docs/letter-spacing.md)
+- [lineClamp](docs/line-clamp.md)
+- [lineHeight](docs/line-height.md)
+- [textOverflow](docs/text-overflow.md)
+
+### Borders
+
+- [borderRadius](docs/border-radius.md)
+- [outline](docs/outline.md)
+
+### Effects & Filters
+
+- [boxShadow](docs/box-shadow.md)
+- [textShadow](docs/text-shadow.md)
+- [filter](docs/filter.md)
+
+### Transforms
+
+- [perspective](docs/perspective.md)
+
+### Transitions & Animation
+
+- [transition](docs/transition.md)
+- [animation](docs/animation.md)
