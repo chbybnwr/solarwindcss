@@ -18,13 +18,13 @@ import { borderRadius } from 'solarwindcss/border-radius.stylex'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply({
         borderRadius: borderRadius.snug,
       })}
     >
       Lorem Ipsum
-    </h1>
+    </div>
   )
 }
 ```

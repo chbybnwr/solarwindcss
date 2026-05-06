@@ -16,13 +16,13 @@ import { letterSpacing } from 'solarwindcss/letter-spacing.stylex'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply({
         letterSpacing: letterSpacing.tight,
       })}
     >
       Lorem Ipsum
-    </h1>
+    </div>
   )
 }
 ```

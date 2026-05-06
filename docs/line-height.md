@@ -15,13 +15,13 @@ import { lineHeight } from 'solarwindcss/line-height.stylex'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply({
         lineHeight: lineHeight.snug,
       })}
     >
       Lorem Ipsum
-    </h1>
+    </div>
   )
 }
 ```

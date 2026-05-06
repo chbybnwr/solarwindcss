@@ -29,14 +29,14 @@ import { antialiased } from 'solarwindcss'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply(
         antialiased,
         //
       )}
     >
       Lorem Ipsum
-    </h1>
+    </div>
   )
 }
 ```

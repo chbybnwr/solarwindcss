@@ -18,14 +18,14 @@ import { truncate } from 'solarwindcss'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply(
         truncate,
         //
       )}
     >
       Insert very long and uninterrupted text here.
-    </h1>
+    </div>
   )
 }
 ```

@@ -19,13 +19,13 @@ import { fontWeight } from 'solarwindcss/font-weight.stylex'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply({
         fontWeight: fontWeight.light,
       })}
     >
       Lorem Ipsum
-    </h1>
+    </div>
   )
 }
 ```

@@ -17,14 +17,14 @@ import { outline } from 'solarwindcss'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply(
         outline.hidden,
         //
       )}
     >
       lorem ipsum
-    </h1>
+    </div>
   )
 }
 ```

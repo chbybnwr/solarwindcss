@@ -117,14 +117,14 @@ import { lineClamp } from 'solarwindcss'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply(
         lineClamp[3],
         //
       )}
     >
       Lorem Ipsum
-    </h1>
+    </div>
   )
 }
 ```

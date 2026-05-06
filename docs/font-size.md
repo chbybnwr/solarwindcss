@@ -161,14 +161,14 @@ import { textSize } from 'solarwindcss'
 
 function Example() {
   return (
-    <h1
+    <div
       {...apply(
         textSize.xl,
         //
       )}
     >
       Lorem Ipsum
-    </h1>
+    </div>
   )
 }
 ```
