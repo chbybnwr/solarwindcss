@@ -3,6 +3,20 @@
   "version": "0.28.0",
   "description": "Design tokens for Vicinage & StyleX",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chbybnwr/solarwindcss.git"
+  },
+  "homepage": "https://github.com/chbybnwr/solarwindcss",
+  "bugs": {
+    "url": "https://github.com/chbybnwr/solarwindcss/issues"
+  },
+  "keywords": [
+    "css",
+    "solarwindcss",
+    "stylex",
+    "vicinage"
+  ],
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
