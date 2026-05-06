@@ -2,67 +2,67 @@ export { width }
 
 const width = defineConsts({
   /**
-   * 256px
+   * ~256px
    */
   '3xs': '16rem',
 
   /**
-   * 288px
+   * ~288px
    */
   '2xs': '18rem',
 
   /**
-   * 320px
+   * ~320px
    */
   xs: '20rem',
 
   /**
-   * 384px
+   * ~384px
    */
   sm: '24rem',
 
   /**
-   * 448px
+   * ~448px
    */
   md: '28rem',
 
   /**
-   * 512px
+   * ~512px
    */
   lg: '32rem',
 
   /**
-   * 576px
+   * ~576px
    */
   xl: '36rem',
 
   /**
-   * 672px
+   * ~672px
    */
   '2xl': '42rem',
 
   /**
-   * 768px
+   * ~768px
    */
   '3xl': '48rem',
 
   /**
-   * 896px
+   * ~896px
    */
   '4xl': '56rem',
 
   /**
-   * 1024px
+   * ~1024px
    */
   '5xl': '64rem',
 
   /**
-   * 1152px
+   * ~1152px
    */
   '6xl': '72rem',
 
   /**
-   * 1280px
+   * ~1280px
    */
   '7xl': '80rem',
 } as const)
