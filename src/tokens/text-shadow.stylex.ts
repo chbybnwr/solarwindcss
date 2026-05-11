@@ -2,11 +2,11 @@ export { textShadow }
 export { textShadowColor }
 
 const textShadowColor = defineVars({
-  '2xs': 'rgb(0 0 0 / 0.15)',
-  xs: 'rgb(0 0 0 / 0.2)',
-  sm: 'rgb(0 0 0 / 0.075)',
-  md: 'rgb(0 0 0 / 0.1)',
-  lg: 'rgb(0 0 0 / 0.1)',
+  '2xs': types.color('rgb(0 0 0 / 0.15)') satisfies Types.Color<string>,
+  xs: types.color('rgb(0 0 0 / 0.2)') satisfies Types.Color<string>,
+  sm: types.color('rgb(0 0 0 / 0.075)') satisfies Types.Color<string>,
+  md: types.color('rgb(0 0 0 / 0.1)') satisfies Types.Color<string>,
+  lg: types.color('rgb(0 0 0 / 0.1)') satisfies Types.Color<string>,
 })
 
 const textShadow = defineConsts({
@@ -31,4 +31,6 @@ const textShadow = defineConsts({
 
 import { defineConsts } from '@stylexjs/stylex'
 import { defineVars } from '@stylexjs/stylex'
+import { types } from '@stylexjs/stylex'
+import type { Types } from '@stylexjs/stylex'
 //
