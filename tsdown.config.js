@@ -16,6 +16,7 @@ const tsdownConfig = {
       'filter',
       'font-family',
       'font-feature-settings',
+      'font-size',
       'font-weight',
       'letter-spacing',
       'line-height',
