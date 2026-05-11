@@ -201,6 +201,26 @@ const eslintConfig = defineConfig([
   },
 
   {
+    name: 'stylex',
+    files: ['**/*.{js,jsx,ts,tsx,mjs,mjsx,mtsx,cjs}'],
+    plugins: {
+      '@stylexjs': stylexjs,
+    },
+    rules: {
+      '@stylexjs/no-conflicting-props': 'error',
+      '@stylexjs/valid-styles': 'error',
+      '@stylexjs/valid-shorthands': 'warn',
+      '@stylexjs/sort-keys': 'warn',
+      '@stylexjs/no-legacy-contextual-styles': 'warn',
+      '@stylexjs/no-lookahead-selectors': 'warn',
+      '@stylexjs/no-nonstandard-styles': 'warn',
+      '@stylexjs/no-unused': 'off',
+      // TODO: wait for it to support newer eslint version
+      // '@stylexjs/enforce-extension': 'off',
+    },
+  },
+
+  {
     name: 'json',
     files: ['package.json'],
     plugins: { json: jsonPlugin },
@@ -242,6 +262,7 @@ import jsPlugin from '@eslint/js'
 import markdownPlugin from '@eslint/markdown'
 import nodePlugin from 'eslint-plugin-n'
 import prettierConfig from 'eslint-config-prettier/flat'
+import * as stylexjs from '@stylexjs/eslint-plugin'
 import stylisticPlugin from '@stylistic/eslint-plugin'
 import { configs as tslintConfigs } from 'typescript-eslint'
 import * as tslintParser from '@typescript-eslint/parser'
