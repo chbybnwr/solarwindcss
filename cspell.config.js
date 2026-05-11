@@ -4,7 +4,7 @@ export { cSpellConfig as default }
 const cSpellConfig = {
   version: '0.2',
   language: 'en',
-  ignorePaths: ['./pnpm-lock.yaml'],
+  ignorePaths: ['./pnpm-lock.yaml', '**/__snapshots__/**'],
   useGitignore: true,
   dictionaries: ['dictionary'],
 

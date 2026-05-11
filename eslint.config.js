@@ -1,7 +1,12 @@
 export { eslintConfig as default }
 
 const eslintConfig = defineConfig([
-  globalIgnores(['**/coverage/**', '**/dist/**']),
+  globalIgnores([
+    '**/coverage/**',
+    '**/dist/**',
+    '**/__snapshots__/**',
+    'test-build/**',
+  ]),
 
   {
     name: 'js',
