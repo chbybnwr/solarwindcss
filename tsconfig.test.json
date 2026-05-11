@@ -8,6 +8,10 @@
     "noEmit": true,
     "skipLibCheck": true,
     "lib": [],
-    "types": ["node", "jsdom"]
+    "types": ["node", "jsdom"],
+
+    "paths": {
+      "#/*": ["./src/*"]
+    }
   }
 }

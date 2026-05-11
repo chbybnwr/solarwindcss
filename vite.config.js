@@ -1,25 +1,59 @@
-/// <reference types="vitest/config" />
-
 export { viteConfig as default }
 
-/** @type {import("vite").UserConfig} */
-const viteConfig = {
-  test: {
-    name: 'unit',
-    passWithNoTests: true,
-    coverage: {
-      exclude: ['src/test/**/*'],
-    },
-    include: [
-      '**/*.spec.{js,jsx,ts,tsx,mjs,mjsx,mtsx,cjs}',
-      '**/*.error.spec-d.{js,jsx,ts,tsx,mjs,mjsx,mtsx,cjs}',
+/** @type {import("vite").UserConfigFn} */
+const viteConfig = async () => {
+  const tokens = await readdir(path.resolve(import.meta.dirname, 'src/tokens/'))
+  const utilities = await readdir(
+    path.resolve(import.meta.dirname, 'src/utilities/'),
+  )
+
+  return {
+    plugins: [
+      // eslint-disable-next-line import-x/no-named-as-default-member
+      stylex.vite(),
+      //
     ],
-    environment: 'jsdom',
-    typecheck: {
-      enabled: true,
-      tsconfig: './tsconfig.test.json',
+
+    build: {
+      outDir: 'test-build/',
+      lib: {
+        formats: ['es'],
+        entry: Object.fromEntries(
+          [
+            // ['index', './src/index.ts'],
+
+            ...utilities
+              .filter(
+                (name) => name.endsWith('.ts') && !name.endsWith('.spec.ts'),
+              )
+              .map((name) => [
+                `utilities/${name.replaceAll('.ts', '')}`,
+                `./src/utilities/${name}`,
+              ]),
+
+            ...tokens
+              .filter(
+                (name) => name.endsWith('.ts') && !name.endsWith('.spec.ts'),
+              )
+              .map((name) => [
+                `tokens/${name.replaceAll('.ts', '')}`,
+                `./src/tokens/${name}`,
+              ]),
+          ].map(([key, value]) => [
+            key,
+            path.resolve(
+              import.meta.dirname,
+              // @ts-expect-error
+              value,
+            ),
+          ]),
+        ),
+      },
     },
-  },
+  }
 }
 
+import path from 'node:path'
+import { readdir } from 'node:fs/promises'
+import stylex from '@stylexjs/unplugin'
 //

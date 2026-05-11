@@ -62,6 +62,7 @@ const eslintConfig = defineConfig([
     extends: [importXPlugin.flatConfigs.recommended],
     rules: {
       'import-x/no-duplicates': 'off',
+      'import-x/no-unresolved': 'off',
     },
   },
 
