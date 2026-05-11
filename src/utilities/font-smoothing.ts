@@ -1,16 +1,17 @@
 export { antialiased }
 export { subpixelAntialiased }
 
+import { create } from '@stylexjs/stylex'
+
 const { antialiased, subpixelAntialiased } = create({
   antialiased: {
-    WebkitFontSmoothing: 'antialiased',
     MozOsxFontSmoothing: 'grayscale',
+    WebkitFontSmoothing: 'antialiased',
   },
   subpixelAntialiased: {
-    WebkitFontSmoothing: 'auto',
-    MozOsxFontSmoothing: 'auto',
+    MozOsxFontSmoothing: null,
+    WebkitFontSmoothing: null,
   },
 })
 
-import { create } from '@stylexjs/stylex'
 //

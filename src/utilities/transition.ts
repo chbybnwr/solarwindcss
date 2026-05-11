@@ -1,42 +1,43 @@
 export { transition }
 
+import { create } from '@stylexjs/stylex'
+import { transitionTimingFunction } from '../tokens/transition-timing-function.stylex'
+
 const transitionDuration = '150ms'
 
 const transition = create({
   base: {
+    transitionDuration,
     transitionProperty:
       'color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events',
     transitionTimingFunction: transitionTimingFunction.easeInOut,
-    transitionDuration,
   },
   all: {
+    transitionDuration,
     transitionProperty: 'all',
     transitionTimingFunction: transitionTimingFunction.easeInOut,
-    transitionDuration,
   },
   colors: {
+    transitionDuration,
     transitionProperty:
       'color, background-color, border-color, outline-color, text-decoration-color, fill, stroke',
     transitionTimingFunction: transitionTimingFunction.easeInOut,
-    transitionDuration,
   },
   opacity: {
+    transitionDuration,
     transitionProperty: 'opacity',
     transitionTimingFunction: transitionTimingFunction.easeInOut,
-    transitionDuration,
   },
   shadow: {
+    transitionDuration,
     transitionProperty: 'box-shadow',
     transitionTimingFunction: transitionTimingFunction.easeInOut,
-    transitionDuration,
   },
   transform: {
+    transitionDuration,
     transitionProperty: 'transform, translate, scale, rotate',
     transitionTimingFunction: transitionTimingFunction.easeInOut,
-    transitionDuration,
   },
 })
 
-import { create } from '@stylexjs/stylex'
-import { transitionTimingFunction } from '../tokens/transition-timing-function.stylex'
 //

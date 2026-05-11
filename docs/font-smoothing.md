@@ -17,8 +17,8 @@
 
 ```ts
 {
-  WebkitFontSmoothing: 'auto',
-  MozOsxFontSmoothing: 'auto',
+  WebkitFontSmoothing: null,
+  MozOsxFontSmoothing: null,
 }
 ```
 

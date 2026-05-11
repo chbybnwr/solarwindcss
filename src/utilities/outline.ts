@@ -1,11 +1,14 @@
 export { outline }
 
+import { create } from '@stylexjs/stylex'
+
 const outline = create({
   hidden: {
-    outline: '2px solid transparent',
+    outlineColor: 'transparent',
     outlineOffset: '2px',
+    outlineStyle: 'solid',
+    outlineWidth: '2px',
   },
 })
 
-import { create } from '@stylexjs/stylex'
 //

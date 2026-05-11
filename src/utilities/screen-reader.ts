@@ -1,30 +1,31 @@
 export { screenReaderOnly }
 export { notScreenReaderOnly }
 
+import { create } from '@stylexjs/stylex'
+
 const { screenReaderOnly, notScreenReaderOnly } = create({
   screenReaderOnly: {
-    display: 'none',
-    position: 'absolute',
-    width: '1px',
-    height: '1px',
-    padding: 0,
     margin: '-1px',
+    padding: 0,
+    borderWidth: 0,
     overflow: 'hidden',
     clipPath: 'inset(50%)',
+    display: 'none',
+    position: 'absolute',
     whiteSpace: 'nowrap',
-    borderWidth: 0,
+    height: '1px',
+    width: '1px',
   },
   notScreenReaderOnly: {
-    position: 'static',
-    width: 'auto',
-    height: 'auto',
-    padding: 0,
     margin: 0,
+    padding: 0,
     overflow: 'visible',
     clipPath: 'none',
+    position: 'static',
     whiteSpace: 'normal',
+    height: 'auto',
+    width: 'auto',
   },
 })
 
-import { create } from '@stylexjs/stylex'
 //

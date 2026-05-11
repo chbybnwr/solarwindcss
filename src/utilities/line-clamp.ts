@@ -1,5 +1,7 @@
 export { lineClamp }
 
+import { create } from '@stylexjs/stylex'
+
 const base = {
   overflow: 'hidden',
   display: '-webkit-box',
@@ -16,11 +18,10 @@ const lineClamp = create({
   6: { ...base, WebkitLineClamp: 6 },
   none: {
     overflow: 'visible',
-    display: 'block',
     WebkitBoxOrient: 'horizontal',
     WebkitLineClamp: 'unset',
+    display: 'block',
   },
 })
 
-import { create } from '@stylexjs/stylex'
 //
