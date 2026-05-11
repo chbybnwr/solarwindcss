@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`bounce > matches snapshot 1`] = `
+{
+  "$$css": true,
+  "k44tkh": "x1c74tu6",
+  "kKVMdj": "x6nbhiy",
+  "ko0y90": "xa4qsjk",
+}
+`;
+
+exports[`ping > matches snapshot 1`] = `
+{
+  "$$css": true,
+  "k44tkh": "x1q3qbx4",
+  "kKVMdj": "xij8f4u",
+  "ko0y90": "xa4qsjk",
+  "kyAemX": "x76wil1",
+}
+`;
+
+exports[`pulse > matches snapshot 1`] = `
+{
+  "$$css": true,
+  "k44tkh": "x1c74tu6",
+  "kKVMdj": "xmt6s25",
+  "ko0y90": "xa4qsjk",
+  "kyAemX": "xw1l40g",
+}
+`;
+
+exports[`spin > matches snapshot 1`] = `
+{
+  "$$css": true,
+  "k44tkh": "x1q3qbx4",
+  "kKVMdj": "xvnswfq",
+  "ko0y90": "xa4qsjk",
+  "kyAemX": "x1esw782",
+}
+`;

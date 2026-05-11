@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`fontFamily > matches snapshot 1`] = `
+{
+  "__varGroupHash__": "xhm2q19",
+  "mono": "var(--xkbj64m)",
+  "sans": "var(--x1la3vm8)",
+  "serif": "var(--x1us3lke)",
+}
+`;

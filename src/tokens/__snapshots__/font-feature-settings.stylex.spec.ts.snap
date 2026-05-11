@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`fontFeatureSettings > matches snapshot 1`] = `
+{
+  "__varGroupHash__": "x1df9vvz",
+  "mono": "var(--xklxb0i)",
+  "sans": "var(--x1udh32i)",
+}
+`;

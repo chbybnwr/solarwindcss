@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`atMedia > matches snapshot 1`] = `
+{
+  "2xl": "@media (width >= 96rem)",
+  "lg": "@media (width >= 64rem)",
+  "md": "@media (width >= 48rem)",
+  "sm": "@media (width >= 40rem)",
+  "xl": "@media (width >= 80rem)",
+}
+`;

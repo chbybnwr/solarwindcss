@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`antialiased > matches snapshot 1`] = `
+{
+  "$$css": true,
+  "kTUp5R": "xlh3980",
+  "khiITx": "xvmahel",
+}
+`;
+
+exports[`subpixelAntialiased > matches snapshot 1`] = `
+{
+  "$$css": true,
+  "kTUp5R": null,
+  "khiITx": null,
+}
+`;

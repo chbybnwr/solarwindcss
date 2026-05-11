@@ -1,0 +1,42 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`transition > matches snapshot 1`] = `
+{
+  "all": {
+    "$$css": true,
+    "k1ekBW": "xfagghw",
+    "kAMwcw": "xh78lw0",
+    "kIyJzY": "xx6bhzk",
+  },
+  "base": {
+    "$$css": true,
+    "k1ekBW": "x193rv6",
+    "kAMwcw": "xh78lw0",
+    "kIyJzY": "xx6bhzk",
+  },
+  "colors": {
+    "$$css": true,
+    "k1ekBW": "xtnl7vc",
+    "kAMwcw": "xh78lw0",
+    "kIyJzY": "xx6bhzk",
+  },
+  "opacity": {
+    "$$css": true,
+    "k1ekBW": "x19991ni",
+    "kAMwcw": "xh78lw0",
+    "kIyJzY": "xx6bhzk",
+  },
+  "shadow": {
+    "$$css": true,
+    "k1ekBW": "xkdsq27",
+    "kAMwcw": "xh78lw0",
+    "kIyJzY": "xx6bhzk",
+  },
+  "transform": {
+    "$$css": true,
+    "k1ekBW": "x10jsvyt",
+    "kAMwcw": "xh78lw0",
+    "kIyJzY": "xx6bhzk",
+  },
+}
+`;

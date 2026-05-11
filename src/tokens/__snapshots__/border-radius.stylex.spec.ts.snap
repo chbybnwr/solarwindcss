@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`borderRadius > matches snapshot 1`] = `
+{
+  "2xl": "1rem",
+  "3xl": "1.5rem",
+  "4xl": "2rem",
+  "lg": "0.5rem",
+  "md": "0.375rem",
+  "sm": "0.25rem",
+  "xl": "0.75rem",
+  "xs": "0.125rem",
+}
+`;

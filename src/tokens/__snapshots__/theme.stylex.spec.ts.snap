@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`theme > matches snapshot 1`] = `
+{
+  "--sw-box-shadow-color": "var(--sw-box-shadow-color)",
+  "--sw-drop-shadow-color": "var(--sw-drop-shadow-color)",
+  "--sw-inset-box-shadow-color": "var(--sw-inset-box-shadow-color)",
+  "--sw-text-shadow-color": "var(--sw-text-shadow-color)",
+  "__varGroupHash__": "xtczww2",
+}
+`;

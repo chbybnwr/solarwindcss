@@ -1,0 +1,10 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`truncate > matches snapshot 1`] = `
+{
+  "$$css": true,
+  "kVQacm": "xb3r6kr",
+  "kg5iWk": "xlyipyv",
+  "khDVqt": "xuxw1ft",
+}
+`;

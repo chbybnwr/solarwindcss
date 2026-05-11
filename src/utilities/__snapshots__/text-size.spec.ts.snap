@@ -1,0 +1,71 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`textSize > matches snapshot 1`] = `
+{
+  "2xl": {
+    "$$css": true,
+    "kGuDYH": "x1g2rr2u",
+    "kLWn49": "x15a744u",
+  },
+  "3xl": {
+    "$$css": true,
+    "kGuDYH": "x13ni22t",
+    "kLWn49": "x1vz3sv3",
+  },
+  "4xl": {
+    "$$css": true,
+    "kGuDYH": "x6iwor2",
+    "kLWn49": "x1tsbd9n",
+  },
+  "5xl": {
+    "$$css": true,
+    "kGuDYH": "xvtb0i",
+    "kLWn49": "xo5v014",
+  },
+  "6xl": {
+    "$$css": true,
+    "kGuDYH": "xmtxfu7",
+    "kLWn49": "xo5v014",
+  },
+  "7xl": {
+    "$$css": true,
+    "kGuDYH": "x1p2ah5u",
+    "kLWn49": "xo5v014",
+  },
+  "8xl": {
+    "$$css": true,
+    "kGuDYH": "x3myzej",
+    "kLWn49": "xo5v014",
+  },
+  "9xl": {
+    "$$css": true,
+    "kGuDYH": "xdmcksh",
+    "kLWn49": "xo5v014",
+  },
+  "base": {
+    "$$css": true,
+    "kGuDYH": "x1cu2jee",
+    "kLWn49": "xwgoe2c",
+  },
+  "lg": {
+    "$$css": true,
+    "kGuDYH": "x1kab52f",
+    "kLWn49": "x1oilras",
+  },
+  "sm": {
+    "$$css": true,
+    "kGuDYH": "x1wlzpfc",
+    "kLWn49": "xp7d87r",
+  },
+  "xl": {
+    "$$css": true,
+    "kGuDYH": "x19qyd0e",
+    "kLWn49": "x1gs2z5x",
+  },
+  "xs": {
+    "$$css": true,
+    "kGuDYH": "xd28oer",
+    "kLWn49": "x1en42ez",
+  },
+}
+`;

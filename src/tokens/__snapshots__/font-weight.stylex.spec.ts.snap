@@ -1,0 +1,15 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`fontWeight > matches snapshot 1`] = `
+{
+  "black": 900,
+  "bold": 700,
+  "extrabold": 800,
+  "extralight": 200,
+  "light": 300,
+  "medium": 500,
+  "normal": 400,
+  "semibold": 600,
+  "thin": 100,
+}
+`;

@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`lineHeight > matches snapshot 1`] = `
+{
+  "loose": "2",
+  "normal": "1.5",
+  "relaxed": "1.625",
+  "snug": "1.375",
+  "tight": "1.25",
+}
+`;

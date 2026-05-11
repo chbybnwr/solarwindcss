@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`letterSpacing > matches snapshot 1`] = `
+{
+  "normal": "0em",
+  "tight": "-0.025em",
+  "tighter": "-0.05em",
+  "wide": "0.025em",
+  "wider": "0.05em",
+  "widest": "0.1em",
+}
+`;

@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`outline > matches snapshot 1`] = `
+{
+  "hidden": {
+    "$$css": true,
+    "k3XXqK": "xaatb59",
+    "kInvED": "x1hl8ikr",
+    "kMeerF": "x1de99jn",
+    "kjBf7l": "x1uczgqu",
+  },
+}
+`;

@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`animationName > matches snapshot 1`] = `
+{
+  "__varGroupHash__": "x112545w",
+  "bounce": "var(--x14kthrp)",
+  "ping": "var(--x14pq7uz)",
+  "pulse": "var(--x14f53z6)",
+  "spin": "var(--x13pa6ny)",
+}
+`;
