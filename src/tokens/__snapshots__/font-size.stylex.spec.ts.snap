@@ -2,19 +2,18 @@
 
 exports[`fontSize > matches snapshot 1`] = `
 {
-  "2xl": "var(--x9qs6jh)",
-  "3xl": "var(--xeh4ybw)",
-  "4xl": "var(--x164k6iy)",
-  "5xl": "var(--x1hyh6wk)",
-  "6xl": "var(--xk0g2u5)",
-  "7xl": "var(--x1ta3nz9)",
-  "8xl": "var(--x1lo30qp)",
-  "9xl": "var(--xftwemc)",
-  "__varGroupHash__": "x1w5wg8y",
-  "base": "var(--x2onu6g)",
-  "lg": "var(--x1q03bv6)",
-  "sm": "var(--x9pm8z5)",
-  "xl": "var(--x1o0lwp1)",
-  "xs": "var(--x1cwi73z)",
+  "2xl": "1.5rem",
+  "3xl": "1.875rem",
+  "4xl": "2.25rem",
+  "5xl": "3rem",
+  "6xl": "3.75rem",
+  "7xl": "4.5rem",
+  "8xl": "6rem",
+  "9xl": "8rem",
+  "base": "1rem",
+  "lg": "1.125rem",
+  "sm": "0.875rem",
+  "xl": "1.25rem",
+  "xs": "0.75rem",
 }
 `;
