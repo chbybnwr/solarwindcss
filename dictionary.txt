@@ -1,5 +1,6 @@
 Chabib
 Consolas
+currentcolor
 extralight
 grayscale
 Menlo

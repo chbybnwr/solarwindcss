@@ -2,45 +2,33 @@
 
 exports[`boxShadow > matches snapshot 1`] = `
 {
-  "2xl": "0 25px 50px -12px var(--sw-box-shadow-color, var(--x16aeo45))",
-  "2xs": "0 1px var(--sw-box-shadow-color, var(--x1d1npzg))",
+  "2xl": "0 25px 50px -12px var(--sw-box-shadow-color, rgb(0 0 0 / 0.25))",
+  "2xs": "0 1px var(--sw-box-shadow-color, rgb(0 0 0 / 0.05))",
+  "inset-2xs": "inset 0 1px var(--sw-inset-shadow-color, rgb(0 0 0 / 0.05))",
+  "inset-ring": "inset 0 0 0 var(--sw-inset-ring-width, 1px) var(--sw-inset-ring-color, currentcolor)",
+  "inset-sm": "inset 0 2px 4px var(--sw-inset-shadow-color, rgb(0 0 0 / 0.05))",
+  "inset-xs": "inset 0 1px 1px var(--sw-inset-shadow-color, rgb(0 0 0 / 0.05))",
   "lg": "
-    0 10px 15px -3px var(--sw-box-shadow-color, var(--x4m9cnz)),
-    0 4px 6px -4px var(--sw-box-shadow-color, var(--x4m9cnz))
+    0 10px 15px -3px var(--sw-box-shadow-color, rgb(0 0 0 / 0.1)),
+    0 4px 6px -4px var(--sw-box-shadow-color, rgb(0 0 0 / 0.1))
   ",
   "md": "
-    0 4px 6px -1px var(--sw-box-shadow-color, var(--xrv5dso)),
-    0 2px 4px -2px var(--sw-box-shadow-color, var(--xrv5dso))
+    0 4px 6px -1px var(--sw-box-shadow-color, rgb(0 0 0 / 0.1)),
+    0 2px 4px -2px var(--sw-box-shadow-color, rgb(0 0 0 / 0.1))
   ",
+  "ring": "0 0 0 var(--sw-ring-width, 1px) var(--sw-ring-color, currentcolor)",
   "sm": "
-    0 1px 3px 0 var(--sw-box-shadow-color, var(--x1bdpwlu)),
-    0 1px 2px -1px var(--sw-box-shadow-color, var(--x1bdpwlu))
+    0 1px 3px 0 var(--sw-box-shadow-color, rgb(0 0 0 / 0.1)),
+    0 1px 2px -1px var(--sw-box-shadow-color, rgb(0 0 0 / 0.1))
   ",
   "xl": "
-    0 20px 25px -5px var(--sw-box-shadow-color, var(--x1fdtdxy)),
-    0 8px 10px -6px var(--sw-box-shadow-color, var(--x1fdtdxy))
+    0 20px 25px -5px var(--sw-box-shadow-color, rgb(0 0 0 / 0.1)),
+    0 8px 10px -6px var(--sw-box-shadow-color, rgb(0 0 0 / 0.1))
   ",
-  "xs": "0 1px 2px 0 var(--sw-box-shadow-color, var(--x1jda00l))",
+  "xs": "0 1px 2px 0 var(--sw-box-shadow-color, rgb(0 0 0 / 0.05))",
 }
 `;
 
-exports[`boxShadowColor > matches snapshot 1`] = `
-{
-  "2xl": "var(--x16aeo45)",
-  "2xs": "var(--x1d1npzg)",
-  "__varGroupHash__": "xzjh8ij",
-  "lg": "var(--x4m9cnz)",
-  "md": "var(--xrv5dso)",
-  "sm": "var(--x1bdpwlu)",
-  "xl": "var(--x1fdtdxy)",
-  "xs": "var(--x1jda00l)",
-}
-`;
+exports[`boxShadowColor > matches snapshot 1`] = `undefined`;
 
-exports[`insetBoxShadow > matches snapshot 1`] = `
-{
-  "2xs": "inset 0 1px var(--sw-inset-shadow-color, rgb(0 0 0 / 0.05))",
-  "sm": "inset 0 2px 4px var(--sw-inset-shadow-color, rgb(0 0 0 / 0.05))",
-  "xs": "inset 0 1px 1px var(--sw-inset-shadow-color, rgb(0 0 0 / 0.05))",
-}
-`;
+exports[`insetBoxShadow > matches snapshot 1`] = `undefined`;

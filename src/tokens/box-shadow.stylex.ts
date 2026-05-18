@@ -1,16 +1,16 @@
 export { boxShadow }
-export { boxShadowColor }
-export { insetBoxShadow }
 
-const boxShadowColor = defineVars({
-  '2xs': types.color('rgb(0 0 0 / 0.05)') satisfies Types.Color<string>,
-  xs: types.color('rgb(0 0 0 / 0.05)') satisfies Types.Color<string>,
-  sm: types.color('rgb(0 0 0 / 0.1)') satisfies Types.Color<string>,
-  md: types.color('rgb(0 0 0 / 0.1)') satisfies Types.Color<string>,
-  lg: types.color('rgb(0 0 0 / 0.1)') satisfies Types.Color<string>,
-  xl: types.color('rgb(0 0 0 / 0.1)') satisfies Types.Color<string>,
-  '2xl': types.color('rgb(0 0 0 / 0.25)') satisfies Types.Color<string>,
-})
+const boxShadowColor = {
+  '2xs': 'rgb(0 0 0 / 0.05)',
+  xs: 'rgb(0 0 0 / 0.05)',
+  sm: 'rgb(0 0 0 / 0.1)',
+  md: 'rgb(0 0 0 / 0.1)',
+  lg: 'rgb(0 0 0 / 0.1)',
+  xl: 'rgb(0 0 0 / 0.1)',
+  '2xl': 'rgb(0 0 0 / 0.25)',
+} as const
+
+const insetBoxShadowColor = 'rgb(0 0 0 / 0.05)'
 
 const boxShadow = defineConsts({
   '2xs': `0 1px var(--sw-box-shadow-color, ${boxShadowColor['2xs']})`,
@@ -32,18 +32,14 @@ const boxShadow = defineConsts({
     0 8px 10px -6px var(--sw-box-shadow-color, ${boxShadowColor.xl})
   `,
   '2xl': `0 25px 50px -12px var(--sw-box-shadow-color, ${boxShadowColor['2xl']})`,
-} as const)
 
-const insetBoxShadowColor = 'rgb(0 0 0 / 0.05)'
+  'inset-2xs': `inset 0 1px var(--sw-inset-shadow-color, ${insetBoxShadowColor})`,
+  'inset-xs': `inset 0 1px 1px var(--sw-inset-shadow-color, ${insetBoxShadowColor})`,
+  'inset-sm': `inset 0 2px 4px var(--sw-inset-shadow-color, ${insetBoxShadowColor})`,
 
-const insetBoxShadow = defineConsts({
-  '2xs': `inset 0 1px var(--sw-inset-shadow-color, ${insetBoxShadowColor})`,
-  xs: `inset 0 1px 1px var(--sw-inset-shadow-color, ${insetBoxShadowColor})`,
-  sm: `inset 0 2px 4px var(--sw-inset-shadow-color, ${insetBoxShadowColor})`,
+  ring: `0 0 0 var(--sw-ring-width, 1px) var(--sw-ring-color, currentcolor)`,
+  'inset-ring': `inset 0 0 0 var(--sw-inset-ring-width, 1px) var(--sw-inset-ring-color, currentcolor)`,
 } as const)
 
 import { defineConsts } from '@stylexjs/stylex'
-import { defineVars } from '@stylexjs/stylex'
-import { types } from '@stylexjs/stylex'
-import type { Types } from '@stylexjs/stylex'
 //
