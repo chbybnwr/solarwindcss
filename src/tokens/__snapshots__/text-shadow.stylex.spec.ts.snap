@@ -2,33 +2,24 @@
 
 exports[`textShadow > matches snapshot 1`] = `
 {
-  "2xs": "0px 1px 0px var(--sw-text-shadow-color, var(--xkba59u))",
+  "2xs": "0px 1px 0px var(--sw-text-shadow-color, rgb(0 0 0 / 0.15))",
   "lg": "
-    0px 1px 2px var(--sw-text-shadow-color, var(--x1eaggnl)),
-    0px 3px 2px var(--sw-text-shadow-color, var(--x1eaggnl)),
-    0px 4px 8px var(--sw-text-shadow-color, var(--x1eaggnl))
+    0px 1px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)),
+    0px 3px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)),
+    0px 4px 8px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1))
   ",
   "md": "
-    0px 1px 1px var(--sw-text-shadow-color, var(--x10949sm)),
-    0px 1px 2px var(--sw-text-shadow-color, var(--x10949sm)),
-    0px 2px 4px var(--sw-text-shadow-color, var(--x10949sm))
+    0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)),
+    0px 1px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)),
+    0px 2px 4px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1))
   ",
   "sm": "
-    0px 1px 0px var(--sw-text-shadow-color, var(--xo11wbb)),
-    0px 1px 1px var(--sw-text-shadow-color, var(--xo11wbb)),
-    0px 2px 2px var(--sw-text-shadow-color, var(--xo11wbb))
+    0px 1px 0px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075)),
+    0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075)),
+    0px 2px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075))
   ",
-  "xs": "0px 1px 1px var(--sw-text-shadow-color, var(--xqzrq3b))",
+  "xs": "0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.2))",
 }
 `;
 
-exports[`textShadowColor > matches snapshot 1`] = `
-{
-  "2xs": "var(--xkba59u)",
-  "__varGroupHash__": "x1i0vno0",
-  "lg": "var(--x1eaggnl)",
-  "md": "var(--x10949sm)",
-  "sm": "var(--xo11wbb)",
-  "xs": "var(--xqzrq3b)",
-}
-`;
+exports[`textShadowColor > matches snapshot 1`] = `undefined`;
