@@ -35,6 +35,10 @@ const tsdownConfig = {
     tsconfig: 'tsconfig.build.json',
   },
 
+  deps: {
+    onlyBundle: [],
+  },
+
   fixedExtension: false,
 }
 
