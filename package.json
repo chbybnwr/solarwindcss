@@ -38,7 +38,7 @@
   },
   "packageManager": "pnpm@11.1.1",
   "dependencies": {
-    "@stylexjs/stylex": "~0.18.2"
+    "@stylexjs/stylex": "~0.18.3"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -49,28 +49,28 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "@txe/eslint-plugin-x": "~0.2.1",
     "@txe/tsconfig": "file:modules/txe-tsconfig-0.1.0.tgz",
-    "@types/jsdom": "^28.0.1",
-    "@types/node": "^25.6.0",
-    "@typescript-eslint/parser": "^8.58.2",
+    "@types/jsdom": "^28.0.3",
+    "@types/node": "^25.9.0",
+    "@typescript-eslint/parser": "^8.59.4",
     "@typescript/native-preview": "7.0.0-dev.20260415.1",
-    "@vitest/coverage-v8": "^4.1.5",
-    "@vitest/eslint-plugin": "^1.6.16",
+    "@vitest/coverage-v8": "^4.1.6",
+    "@vitest/eslint-plugin": "^1.6.17",
     "cspell": "^10.0.0",
-    "eslint": "^10.2.0",
+    "eslint": "^10.4.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import-x": "^4.16.2",
     "eslint-plugin-n": "^17.24.0",
     "eslint-plugin-unicorn": "^64.0.0",
-    "globals": "^17.5.0",
-    "jsdom": "^29.0.2",
+    "globals": "^17.6.0",
+    "jsdom": "^29.1.1",
     "npm-run-all2": "^8.0.4",
     "prettier": "^3.8.3",
     "shx": "~0.4.0",
     "tsdown": "^0.21.10",
-    "typescript": "^6.0.2",
-    "typescript-eslint": "^8.58.2",
-    "vite": "^8.0.10",
-    "vitest": "^4.1.5"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.4",
+    "vite": "^8.0.13",
+    "vitest": "^4.1.6"
   }
 }
