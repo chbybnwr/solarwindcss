@@ -3,6 +3,7 @@
 !/src/
 !/docs/
 
+!/.github
 !/.npmignore
 !/.node-version
 
