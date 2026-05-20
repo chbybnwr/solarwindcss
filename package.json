@@ -36,7 +36,7 @@
     "spellcheck": "cspell ./",
     "local-pack": "npm run build && npm pack"
   },
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@11.1.1",
   "dependencies": {
     "@stylexjs/stylex": "~0.18.2"
   },
