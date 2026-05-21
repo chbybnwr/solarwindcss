@@ -9,6 +9,7 @@ const tsdownConfig = {
       'animation-name',
       'aspect-ratio',
       'at-container',
+      'at-dark',
       'at-media',
       'border-radius',
       'box-shadow',
