@@ -1,11 +1,47 @@
 # fontSize
 
+```markdown
+| Token            | Value    |
+| ---------------- | -------- |
+| fontSize['xs']   | 0.75rem  |
+| fontSize['sm']   | 0.875rem |
+| fontSize['base'] | 1rem     |
+| fontSize['lg']   | 1.125rem |
+| fontSize['xl']   | 1.25rem  |
+| fontSize['2xl']  | 1.5rem   |
+| fontSize['3xl']  | 1.875rem |
+| fontSize['4xl']  | 2.25rem  |
+| fontSize['5xl']  | 3rem     |
+| fontSize['6xl']  | 3.75rem  |
+| fontSize['7xl']  | 4.5rem   |
+| fontSize['8xl']  | 6rem     |
+| fontSize['9xl']  | 8rem     |
+```
+
+```tsx
+import { fontSize } from 'solarwindcss/font-size.stylex'
+
+function Example() {
+  return (
+    <div
+      {...apply({
+        color: fontSize['xl'],
+      })}
+    >
+      lorem ipsum
+    </div>
+  )
+}
+```
+
+## textSize
+
 <details>
-<summary><code>textSize.xs</code></summary>
+<summary><code>textSize['xs']</code></summary>
 
 ```ts
 {
-  fontSize: '0.75rem',
+  fontSize: fontSize['xs'],
   lineHeight: 'calc(1 / 0.75)',
 }
 ```
@@ -13,11 +49,11 @@
 </details>
 
 <details>
-<summary><code>textSize.sm</code></summary>
+<summary><code>textSize['sm']</code></summary>
 
 ```ts
 {
-  fontSize: '0.875rem',
+  fontSize: fontSize['sm'],
   lineHeight: 'calc(1.25 / 0.875)',
 }
 ```
@@ -25,11 +61,11 @@
 </details>
 
 <details>
-<summary><code>textSize.base</code></summary>
+<summary><code>textSize['base']</code></summary>
 
 ```ts
 {
-  fontSize: '1rem',
+  fontSize: fontSize['base'],
   lineHeight: 'calc(1.5 / 1)',
 }
 ```
@@ -37,11 +73,11 @@
 </details>
 
 <details>
-<summary><code>textSize.lg</code></summary>
+<summary><code>textSize['lg']</code></summary>
 
 ```ts
 {
-  fontSize: '1.125rem',
+  fontSize: fontSize['lg'],
   lineHeight: 'calc(1.75 / 1.125)',
 }
 ```
@@ -49,11 +85,11 @@
 </details>
 
 <details>
-<summary><code>textSize.xl</code></summary>
+<summary><code>textSize['xl']</code></summary>
 
 ```ts
 {
-  fontSize: '1.25rem',
+  fontSize: fontSize['xl'],
   lineHeight: 'calc(1.75 / 1.25)',
 }
 ```
@@ -65,7 +101,7 @@
 
 ```ts
 {
-  fontSize: '1.5rem',
+  fontSize: fontSize['2xl'],
   lineHeight: 'calc(2 / 1.5)',
 }
 ```
@@ -77,7 +113,7 @@
 
 ```ts
 {
-  fontSize: '1.875rem',
+  fontSize: fontSize['3xl'],
   lineHeight: 'calc(2.25 / 1.875)',
 }
 ```
@@ -89,7 +125,7 @@
 
 ```ts
 {
-  fontSize: '2.25rem',
+  fontSize: fontSize['4xl'],
   lineHeight: 'calc(2.5 / 2.25)',
 }
 ```
@@ -101,7 +137,7 @@
 
 ```ts
 {
-  fontSize: '3rem',
+  fontSize: fontSize['5xl'],
   lineHeight: '1',
 }
 ```
@@ -113,7 +149,7 @@
 
 ```ts
 {
-  fontSize: '3.75rem',
+  fontSize: fontSize['6xl'],
   lineHeight: '1',
 }
 ```
@@ -125,7 +161,7 @@
 
 ```ts
 {
-  fontSize: '4.5rem',
+  fontSize: fontSize['7xl'],
   lineHeight: '1',
 }
 ```
@@ -137,7 +173,7 @@
 
 ```ts
 {
-  fontSize: '6rem',
+  fontSize: fontSize['8xl'],
   lineHeight: '1',
 }
 ```
@@ -149,7 +185,7 @@
 
 ```ts
 {
-  fontSize: '8rem',
+  fontSize: fontSize['9xl'],
   lineHeight: '1',
 }
 ```
@@ -163,7 +199,7 @@ function Example() {
   return (
     <div
       {...apply(
-        textSize.xl,
+        textSize['xl'],
         //
       )}
     >
