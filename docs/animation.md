@@ -55,7 +55,24 @@
 
 </details>
 
-## Keyframes
+```jsx
+import { animate } from 'solarwindcss'
+
+function Example() {
+  return (
+    <div
+      {...apply(
+        animate.bounce,
+        //
+      )}
+    >
+      extra
+    </div>
+  )
+}
+```
+
+## keyframes
 
 <details>
 <summary><code>animationName.spin</code></summary>

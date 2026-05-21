@@ -3,11 +3,11 @@
 ```markdown
 | Token               | Value    |
 | ------------------- | -------- |
-| borderRadius.xs     | 0.125rem |
-| borderRadius.sm     | 0.25rem  |
-| borderRadius.md     | 0.375rem |
-| borderRadius.lg     | 0.5rem   |
-| borderRadius.xl     | 0.75rem  |
+| borderRadius['xs']  | 0.125rem |
+| borderRadius['sm']  | 0.25rem  |
+| borderRadius['md']  | 0.375rem |
+| borderRadius['lg']  | 0.5rem   |
+| borderRadius['xl']  | 0.75rem  |
 | borderRadius['2xl'] | 1rem     |
 | borderRadius['3xl'] | 1.5rem   |
 | borderRadius['4xl'] | 2rem     |
@@ -20,7 +20,7 @@ function Example() {
   return (
     <div
       {...apply({
-        borderRadius: borderRadius.snug,
+        borderRadius: borderRadius['xl'],
       })}
     >
       Lorem Ipsum

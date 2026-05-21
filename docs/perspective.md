@@ -9,3 +9,19 @@
 | perspective.midrange | 800px  |
 | perspective.distant  | 1200px |
 ```
+
+```tsx
+import { perspective } from 'solarwindcss/perspective.stylex'
+
+function Example() {
+  return (
+    <div
+      {...apply({
+        perspective: perspective.dramatic,
+      })}
+    >
+      3D box
+    </div>
+  )
+}
+```

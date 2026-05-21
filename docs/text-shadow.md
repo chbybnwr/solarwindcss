@@ -4,8 +4,27 @@
 | Token             | Value                                                                                                                                                                                 |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | textShadow['2xs'] | 0px 1px 0px var(--sw-text-shadow-color, rgb(0 0 0 / 0.15))                                                                                                                            |
-| textShadow.xs     | 0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.2))                                                                                                                             |
-| textShadow.sm     | 0px 1px 0px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075)), 0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075)), 0px 2px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075)) |
-| textShadow.md     | 0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 1px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 2px 4px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1))       |
-| textShadow.lg     | 0px 1px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 3px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 4px 8px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1))       |
+| textShadow['xs']  | 0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.2))                                                                                                                             |
+| textShadow['sm']  | 0px 1px 0px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075)), 0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075)), 0px 2px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.075)) |
+| textShadow['md']  | 0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 1px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 2px 4px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1))       |
+| textShadow['lg']  | 0px 1px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 3px 2px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1)), 0px 4px 8px var(--sw-text-shadow-color, rgb(0 0 0 / 0.1))       |
+```
+
+```jsx
+import { textShadow } from 'solarwindcss/text-shadow.stylex'
+import { theme } from 'solarwindcss/theme.stylex'
+
+function Example() {
+  return (
+    <div
+      {...apply({
+        textShadow: textShadow.xl,
+        // custom color with theme
+        [theme['--sw-text-shadow-color']]: color.blue500,
+      })}
+    >
+      lorem ipsum
+    </div>
+  )
+}
 ```

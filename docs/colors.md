@@ -462,6 +462,90 @@
 
 </details>
 
+<details>
+<summary>mauve</summary>
+
+```markdown
+| Token          | Value                     |
+| -------------- | ------------------------- |
+| color.mauve50  | oklch(98.5% 0 0)          |
+| color.mauve100 | oklch(96% 0.003 325.6)    |
+| color.mauve200 | oklch(92.2% 0.005 325.62) |
+| color.mauve300 | oklch(86.5% 0.012 325.68) |
+| color.mauve400 | oklch(71.1% 0.019 323.02) |
+| color.mauve500 | oklch(54.2% 0.034 322.5)  |
+| color.mauve600 | oklch(43.5% 0.029 321.78) |
+| color.mauve700 | oklch(36.4% 0.029 323.89) |
+| color.mauve800 | oklch(26.3% 0.024 320.12) |
+| color.mauve900 | oklch(21.2% 0.019 322.12) |
+| color.mauve950 | oklch(14.5% 0.008 326)    |
+```
+
+</details>
+
+<details>
+<summary>olive</summary>
+
+```markdown
+| Token          | Value                    |
+| -------------- | ------------------------ |
+| color.olive50  | oklch(98.8% 0.003 106.5) |
+| color.olive100 | oklch(96.6% 0.005 106.5) |
+| color.olive200 | oklch(93% 0.007 106.5)   |
+| color.olive300 | oklch(88% 0.011 106.6)   |
+| color.olive400 | oklch(73.7% 0.021 106.9) |
+| color.olive500 | oklch(58% 0.031 107.3)   |
+| color.olive600 | oklch(46.6% 0.025 107.3) |
+| color.olive700 | oklch(39.4% 0.023 107.4) |
+| color.olive800 | oklch(28.6% 0.016 107.4) |
+| color.olive900 | oklch(22.8% 0.013 107.4) |
+| color.olive950 | oklch(15.3% 0.006 107.1) |
+```
+
+</details>
+
+<details>
+<summary>mist</summary>
+
+```markdown
+| Token         | Value                    |
+| ------------- | ------------------------ |
+| color.mist50  | oklch(98.7% 0.002 197.1) |
+| color.mist100 | oklch(96.3% 0.002 197.1) |
+| color.mist200 | oklch(92.5% 0.005 214.3) |
+| color.mist300 | oklch(87.2% 0.007 219.6) |
+| color.mist400 | oklch(72.3% 0.014 214.4) |
+| color.mist500 | oklch(56% 0.021 213.5)   |
+| color.mist600 | oklch(45% 0.017 213.2)   |
+| color.mist700 | oklch(37.8% 0.015 216)   |
+| color.mist800 | oklch(27.5% 0.011 216.9) |
+| color.mist900 | oklch(21.8% 0.008 223.9) |
+| color.mist950 | oklch(14.8% 0.004 228.8) |
+```
+
+</details>
+
+<details>
+<summary>taupe</summary>
+
+```markdown
+| Token          | Value                   |
+| -------------- | ----------------------- |
+| color.taupe50  | oklch(98.6% 0.002 67.8) |
+| color.taupe100 | oklch(96% 0.002 17.2)   |
+| color.taupe200 | oklch(92.2% 0.005 34.3) |
+| color.taupe300 | oklch(86.8% 0.007 39.5) |
+| color.taupe400 | oklch(71.4% 0.014 41.2) |
+| color.taupe500 | oklch(54.7% 0.021 43.1) |
+| color.taupe600 | oklch(43.8% 0.017 39.3) |
+| color.taupe700 | oklch(36.7% 0.016 35.7) |
+| color.taupe800 | oklch(26.8% 0.011 36.5) |
+| color.taupe900 | oklch(21.4% 0.009 43.1) |
+| color.taupe950 | oklch(14.7% 0.004 49.3) |
+```
+
+</details>
+
 ```tsx
 import { color } from 'solarwindcss/color.stylex'
 

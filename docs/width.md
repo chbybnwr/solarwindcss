@@ -5,11 +5,11 @@
 | ------------ | ----- | -----: |
 | width['3xs'] | 16rem |  256px |
 | width['2xs'] | 18rem |  288px |
-| width.xs     | 20rem |  320px |
-| width.sm     | 24rem |  384px |
-| width.md     | 28rem |  448px |
-| width.lg     | 32rem |  512px |
-| width.xl     | 36rem |  576px |
+| width['xs']  | 20rem |  320px |
+| width['sm']  | 24rem |  384px |
+| width['md']  | 28rem |  448px |
+| width['lg']  | 32rem |  512px |
+| width['xl']  | 36rem |  576px |
 | width['2xl'] | 42rem |  672px |
 | width['3xl'] | 48rem |  768px |
 | width['4xl'] | 56rem |  896px |
@@ -25,7 +25,7 @@ function Example() {
   return (
     <div
       {...apply({
-        width: width.md,
+        width: width['xl'],
       })}
     >
       lorem ipsum
