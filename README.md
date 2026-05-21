@@ -1,4 +1,4 @@
-# SolarWind CSS ☉≈ &middot; [![npm version](https://img.shields.io/npm/v/solarwindcss.svg?style=flat-square)](https://www.npmjs.com/package/solarwindcss) [![build](https://img.shields.io/github/actions/workflow/status/chbybnwr/solarwindcss/publish.yml?label=build&style=flat-square)](https://github.com/chbybnwr/solarwindcss/actions/workflows/publish.yml) [![GitHub license](https://img.shields.io/npm/l/solarwindcss.svg?style=flat-square)](https://github.com/chbybnwr/solarwindcss/blob/prototype/LICENSE)
+# SolarWind CSS ☉≈ &middot; [![npm version](https://img.shields.io/npm/v/solarwindcss.svg?style=flat-square)](https://www.npmjs.com/package/solarwindcss) [![build](https://img.shields.io/github/actions/workflow/status/chbybnwr/solarwindcss/publish.yml?label=build&style=flat-square)](https://github.com/chbybnwr/solarwindcss/actions/workflows/publish.yml) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/chbybnwr/solarwindcss/blob/main/LICENSE)
 
 Design tokens for [Vicinage](https://github.com/chbybnwr/vicinage) & [StyleX](https://stylexjs.com).
 
@@ -36,6 +36,7 @@ function Example() {
 ## API
 
 - [Responsive Design](docs/responsive-design.md)
+- [Dark Mode](docs/dark-mode.md)
 - [Colors](docs/colors.md)
 - [Spacing](docs/spacing.md)
 
