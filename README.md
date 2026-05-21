@@ -36,6 +36,7 @@ function Example() {
 ## API
 
 - [Responsive Design](docs/responsive-design.md)
+- [Dark Mode](docs/dark-mode.md)
 - [Colors](docs/colors.md)
 - [Spacing](docs/spacing.md)
 
