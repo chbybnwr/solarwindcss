@@ -5,10 +5,10 @@
 ```markdown
 | Token          | Value                   |    ~px |
 | -------------- | ----------------------- | -----: |
-| atMedia.sm     | @media (width >= 40rem) |  640px |
-| atMedia.md     | @media (width >= 48rem) |  768px |
-| atMedia.lg     | @media (width >= 64rem) | 1024px |
-| atMedia.xl     | @media (width >= 80rem) | 1280px |
+| atMedia['sm']  | @media (width >= 40rem) |  640px |
+| atMedia['md']  | @media (width >= 48rem) |  768px |
+| atMedia['lg']  | @media (width >= 64rem) | 1024px |
+| atMedia['xl']  | @media (width >= 80rem) | 1280px |
 | atMedia['2xl'] | @media (width >= 96rem) | 1536px |
 ```
 
@@ -38,11 +38,11 @@ function Example() {
 | ------------------ | --------------------------- | -----: |
 | atContainer['3xs'] | @container (width >= 16rem) |  256px |
 | atContainer['2xs'] | @container (width >= 18rem) |  288px |
-| atContainer.xs     | @container (width >= 20rem) |  320px |
-| atContainer.sm     | @container (width >= 24rem) |  384px |
-| atContainer.md     | @container (width >= 28rem) |  448px |
-| atContainer.lg     | @container (width >= 32rem) |  512px |
-| atContainer.xl     | @container (width >= 36rem) |  576px |
+| atContainer['xs']  | @container (width >= 20rem) |  320px |
+| atContainer['sm']  | @container (width >= 24rem) |  384px |
+| atContainer['md']  | @container (width >= 28rem) |  448px |
+| atContainer['lg']  | @container (width >= 32rem) |  512px |
+| atContainer['xl']  | @container (width >= 36rem) |  576px |
 | atContainer['2xl'] | @container (width >= 42rem) |  672px |
 | atContainer['3xl'] | @container (width >= 48rem) |  768px |
 | atContainer['4xl'] | @container (width >= 56rem) |  896px |

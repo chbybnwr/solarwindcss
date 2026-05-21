@@ -78,6 +78,30 @@
 
 </details>
 
+```jsx
+import { transition } from 'solarwindcss'
+import { color } from 'solarwindcss/color.stylex'
+
+function Example() {
+  return (
+    <div
+      {...apply(
+        transition.color,
+        {
+          color: {
+            default: color.blue500,
+            ':hover': color.red500,
+          },
+        },
+        //
+      )}
+    >
+      lorem ipsum
+    </div>
+  )
+}
+```
+
 ## Variables
 
 ```markdown
