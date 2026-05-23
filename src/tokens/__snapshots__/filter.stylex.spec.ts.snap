@@ -1,7 +1,19 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`blur > matches snapshot 1`] = `undefined`;
-
-exports[`dropShadow > matches snapshot 1`] = `undefined`;
-
-exports[`dropShadowColor > matches snapshot 1`] = `undefined`;
+exports[`filter > matches snapshot 1`] = `
+{
+  "blur-2xl": "blur(40px)",
+  "blur-3xl": "blur(64px)",
+  "blur-lg": "blur(16px)",
+  "blur-md": "blur(12px)",
+  "blur-sm": "blur(8px)",
+  "blur-xl": "blur(24px)",
+  "blur-xs": "blur(4px)",
+  "drop-shadow-2xl": "drop-shadow(0 25px 25px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15)))",
+  "drop-shadow-lg": "drop-shadow(0 4px 4px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15)))",
+  "drop-shadow-md": "drop-shadow(0 3px 3px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.12)))",
+  "drop-shadow-sm": "drop-shadow(0 1px 2px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15)))",
+  "drop-shadow-xl": "drop-shadow(0 9px 7px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.1)))",
+  "drop-shadow-xs": "drop-shadow(0 1px 1px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.05)))",
+}
+`;
