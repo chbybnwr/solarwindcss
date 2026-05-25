@@ -26,7 +26,7 @@ const { spin, ping, pulse, bounce } = create({
     animationTimingFunction: 'cubic-bezier(0.4, 0, 0.6, 1)',
   },
   bounce: {
-    animationDuration: '2s',
+    animationDuration: '1s',
     animationIterationCount: 'infinite',
     animationName: animationName.bounce,
   },
