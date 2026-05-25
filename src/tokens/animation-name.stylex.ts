@@ -10,7 +10,10 @@ const animationName = defineVars({
     },
   }),
   ping: keyframes({
-    '75%': {},
+    '75%': {
+      opacity: 0,
+      transform: 'scale(2)',
+    },
     '100%': {
       opacity: 0,
       transform: 'scale(2)',
@@ -22,7 +25,10 @@ const animationName = defineVars({
     },
   }),
   bounce: keyframes({
-    '0%': {},
+    '0%': {
+      animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
+      transform: 'translateY(-25%)',
+    },
     '100%': {
       animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
       transform: 'translateY(-25%)',
