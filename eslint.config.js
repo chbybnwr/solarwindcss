@@ -210,6 +210,7 @@ const eslintConfig = defineConfig([
     name: 'stylex',
     files: ['**/*.{js,jsx,ts,tsx,mjs,mjsx,mtsx,cjs}'],
     plugins: {
+      // @ts-expect-error
       '@stylexjs': stylexjs,
     },
     rules: {
