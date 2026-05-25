@@ -28,7 +28,3 @@ exports[`boxShadow > matches snapshot 1`] = `
   "xs": "0 1px 2px 0 var(--sw-box-shadow-color, rgb(0 0 0 / 0.05))",
 }
 `;
-
-exports[`boxShadowColor > matches snapshot 1`] = `undefined`;
-
-exports[`insetBoxShadow > matches snapshot 1`] = `undefined`;

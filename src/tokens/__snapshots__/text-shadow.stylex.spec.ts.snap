@@ -21,5 +21,3 @@ exports[`textShadow > matches snapshot 1`] = `
   "xs": "0px 1px 1px var(--sw-text-shadow-color, rgb(0 0 0 / 0.2))",
 }
 `;
-
-exports[`textShadowColor > matches snapshot 1`] = `undefined`;
