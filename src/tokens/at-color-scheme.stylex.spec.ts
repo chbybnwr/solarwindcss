@@ -4,7 +4,7 @@ describe('atContainer', () => {
   })
 })
 
-import { atColorScheme } from './at-color-scheme.stylex'
+import { atColorScheme } from '#/tokens/at-color-scheme.stylex'
 import { describe } from 'vitest'
 import { expect } from 'vitest'
 import { it } from 'vitest'
