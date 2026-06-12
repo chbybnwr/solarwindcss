@@ -1,10 +1,10 @@
-describe('atMedia', () => {
+describe('atContainer', () => {
   it('matches snapshot', () => {
-    expect(atDark).toMatchSnapshot()
+    expect(atColorScheme).toMatchSnapshot()
   })
 })
 
-import { atDark } from './at-dark.stylex.ts'
+import { atColorScheme } from './at-color-scheme.stylex'
 import { describe } from 'vitest'
 import { expect } from 'vitest'
 import { it } from 'vitest'
