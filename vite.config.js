@@ -10,9 +10,19 @@ const viteConfig = async () => {
   return {
     plugins: [
       // eslint-disable-next-line import-x/no-named-as-default-member
-      stylex.vite(),
+      stylex.vite({
+        aliases: {
+          '#/*': path.resolve(import.meta.dirname, './src/*'),
+        },
+      }),
       //
     ],
+
+    resolve: {
+      alias: {
+        '#/*': path.resolve(import.meta.dirname, './src/*'),
+      },
+    },
 
     build: {
       outDir: 'test-build/',
