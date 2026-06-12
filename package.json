@@ -1,6 +1,6 @@
 {
   "name": "solarwindcss",
-  "version": "0.35.9",
+  "version": "0.36.9",
   "description": "Design tokens for Vicinage & StyleX",
   "license": "MIT",
   "repository": {
@@ -27,9 +27,10 @@
   },
   "scripts": {
     "prepack": "npm run build && npm pkg delete scripts packageManager devDependencies",
-    "check": "npm run compile && npm run test -- --coverage && npm run lint && npm run format -- --check && npm run spellcheck",
+    "check": "npm run typecheck && npm run test -- --coverage && npm run lint && npm run format -- --check && npm run spellcheck",
     "build": "tsdown",
     "compile": "tsc --project tsconfig.build.json",
+    "typecheck": "tsc --build",
     "test": "vite build && vitest run",
     "lint": "eslint ./",
     "format": "prettier ./",
