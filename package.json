@@ -21,8 +21,8 @@
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
-    "./*": "./dist/*.js",
-    "./*.js": "./dist/*.js",
+    "./*": "./dist/tokens/*.js",
+    "./*.js": "./dist/tokens/*.js",
     "./package.json": "./package.json"
   },
   "scripts": {
