@@ -14,6 +14,7 @@ const viteConfig = async () => {
         aliases: {
           '#/*': path.resolve(import.meta.dirname, './src/*'),
         },
+        useCSSLayers: true,
       }),
       //
     ],
