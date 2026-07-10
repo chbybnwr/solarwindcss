@@ -1,13 +1,44 @@
 export { borderRadius }
 
 const borderRadius = defineConsts({
+  /**
+   * ~2px
+   */
   xs: '0.125rem',
+
+  /**
+   * ~4px
+   */
   sm: '0.25rem',
+
+  /**
+   * ~6px
+   */
   md: '0.375rem',
+
+  /**
+   * ~8px
+   */
   lg: '0.5rem',
+
+  /**
+   * ~12px
+   */
   xl: '0.75rem',
+
+  /**
+   * ~16px
+   */
   '2xl': '1rem',
+
+  /**
+   * ~24px
+   */
   '3xl': '1.5rem',
+
+  /**
+   * ~32px
+   */
   '4xl': '2rem',
 } as const)
 
