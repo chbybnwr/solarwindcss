@@ -4,11 +4,6 @@ const base = '0.25rem'
 
 const spacing = defineConsts({
   /**
-   * 0rem / ~0px
-   */
-  0: `calc(${unit} * 0)`,
-
-  /**
    * 0.125rem / ~2px
    */
   0.5: `calc(${base} * 0.5)`,

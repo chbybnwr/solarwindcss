@@ -2,7 +2,6 @@
 
 exports[`spacing > matches snapshot 1`] = `
 {
-  "0": "calc(0.25rem * 0)",
   "0.5": "calc(0.25rem * 0.5)",
   "1": "calc(0.25rem * 1)",
   "1.5": "calc(0.25rem * 1.5)",
