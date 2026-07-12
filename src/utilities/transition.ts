@@ -20,7 +20,7 @@ const transition = create({
     transitionProperty: 'all',
     transitionTimingFunction: transitionTimingFunction.easeInOut,
   },
-  color: {
+  colors: {
     transitionDuration,
     transitionProperty:
       'color, background-color, border-color, outline-color, text-decoration-color, fill, stroke',
