@@ -8,9 +8,9 @@ exports[`transition > matches snapshot 1`] = `
     "kAMwcw": "xh78lw0",
     "kIyJzY": "xx6bhzk",
   },
-  "base": {
+  "boxShadow": {
     "$$css": true,
-    "k1ekBW": "x193rv6",
+    "k1ekBW": "xkdsq27",
     "kAMwcw": "xh78lw0",
     "kIyJzY": "xx6bhzk",
   },
@@ -20,15 +20,15 @@ exports[`transition > matches snapshot 1`] = `
     "kAMwcw": "xh78lw0",
     "kIyJzY": "xx6bhzk",
   },
-  "opacity": {
+  "default": {
     "$$css": true,
-    "k1ekBW": "x19991ni",
+    "k1ekBW": "x193rv6",
     "kAMwcw": "xh78lw0",
     "kIyJzY": "xx6bhzk",
   },
-  "shadow": {
+  "opacity": {
     "$$css": true,
-    "k1ekBW": "xkdsq27",
+    "k1ekBW": "x19991ni",
     "kAMwcw": "xh78lw0",
     "kIyJzY": "xx6bhzk",
   },
