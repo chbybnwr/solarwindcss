@@ -78,7 +78,7 @@ function Example() {
   return (
     <div
       {...apply({
-        [fontFamily.sans]: `"Inter", sans-serif`,
+        [fontFamily.sans]: '"Inter", sans-serif',
         [fontFeatureSettings.sans]: 'normal',
       })}
     >
