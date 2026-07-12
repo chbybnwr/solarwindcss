@@ -1,62 +1,20 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`lineClamp > matches snapshot 1`] = `
+exports[`lineClamped > matches snapshot 1`] = `
 {
-  "1": {
-    "$$css": true,
-    "k1xSpc": "x104kibb",
-    "kJFfOR": "xh0615m",
-    "kVQacm": "xb3r6kr",
-    "kgKLqz": "x1ua5tub",
-  },
-  "2": {
-    "$$css": true,
-    "k1xSpc": "x104kibb",
-    "kJFfOR": "x1h7i4cw",
-    "kVQacm": "xb3r6kr",
-    "kgKLqz": "x1ua5tub",
-  },
-  "3": {
-    "$$css": true,
-    "k1xSpc": "x104kibb",
-    "kJFfOR": "x1gzmk7r",
-    "kVQacm": "xb3r6kr",
-    "kgKLqz": "x1ua5tub",
-  },
-  "4": {
-    "$$css": true,
-    "k1xSpc": "x104kibb",
-    "kJFfOR": "xnajbk2",
-    "kVQacm": "xb3r6kr",
-    "kgKLqz": "x1ua5tub",
-  },
-  "5": {
-    "$$css": true,
-    "k1xSpc": "x104kibb",
-    "kJFfOR": "x1s7n7y8",
-    "kVQacm": "xb3r6kr",
-    "kgKLqz": "x1ua5tub",
-  },
-  "6": {
-    "$$css": true,
-    "k1xSpc": "x104kibb",
-    "kJFfOR": "x1q359dk",
-    "kVQacm": "xb3r6kr",
-    "kgKLqz": "x1ua5tub",
-  },
-  "base": {
-    "$$css": true,
-    "k1xSpc": "x104kibb",
-    "kJFfOR": null,
-    "kVQacm": "xb3r6kr",
-    "kgKLqz": "x1ua5tub",
-  },
-  "none": {
-    "$$css": true,
-    "k1xSpc": "x1lliihq",
-    "kJFfOR": "x1u5n1hv",
-    "kVQacm": "x1rea2x4",
-    "kgKLqz": "x1y52mlm",
-  },
+  "$$css": true,
+  "k1xSpc": "x104kibb",
+  "kVQacm": "xb3r6kr",
+  "kgKLqz": "x1ua5tub",
+}
+`;
+
+exports[`notLineClamped > matches snapshot 1`] = `
+{
+  "$$css": true,
+  "k1xSpc": "x1lliihq",
+  "kJFfOR": "x1u5n1hv",
+  "kVQacm": "x1rea2x4",
+  "kgKLqz": "x1y52mlm",
 }
 `;

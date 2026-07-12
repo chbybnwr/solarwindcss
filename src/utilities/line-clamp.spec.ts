@@ -1,11 +1,18 @@
-describe('lineClamp', () => {
+describe('lineClamped', () => {
   it('matches snapshot', () => {
-    expect(lineClamp).toMatchSnapshot()
+    expect(lineClamped).toMatchSnapshot()
+  })
+})
+
+describe('notLineClamped', () => {
+  it('matches snapshot', () => {
+    expect(notLineClamped).toMatchSnapshot()
   })
 })
 
 import { describe } from 'vitest'
 import { expect } from 'vitest'
 import { it } from 'vitest'
-import { lineClamp } from '#/utilities/line-clamp'
+import { lineClamped } from '#/utilities/line-clamp'
+import { notLineClamped } from '#/utilities/line-clamp'
 //
