@@ -1,21 +1,23 @@
 export { filter }
+export { filterVars }
 
-const dropShadowColor = {
-  xs: 'rgb(0 0 0 / 0.05)',
-  sm: 'rgb(0 0 0 / 0.15)',
-  md: 'rgb(0 0 0 / 0.12)',
-  lg: 'rgb(0 0 0 / 0.15)',
-  xl: 'rgb(0 0 0 / 0.1)',
-  '2xl': 'rgb(0 0 0 / 0.15)',
-} as const
+const filterVars = defineVars({
+  '--sw-drop-shadow-color': null,
+})
 
 const filter = defineConsts({
-  'drop-shadow-xs': `drop-shadow(0 1px 1px var(--sw-drop-shadow-color, ${dropShadowColor.xs}))`,
-  'drop-shadow-sm': `drop-shadow(0 1px 2px var(--sw-drop-shadow-color, ${dropShadowColor.sm}))`,
-  'drop-shadow-md': `drop-shadow(0 3px 3px var(--sw-drop-shadow-color, ${dropShadowColor.md}))`,
-  'drop-shadow-lg': `drop-shadow(0 4px 4px var(--sw-drop-shadow-color, ${dropShadowColor.lg}))`,
-  'drop-shadow-xl': `drop-shadow(0 9px 7px var(--sw-drop-shadow-color, ${dropShadowColor.xl}))`,
-  'drop-shadow-2xl': `drop-shadow(0 25px 25px var(--sw-drop-shadow-color, ${dropShadowColor['2xl']}))`,
+  'drop-shadow-xs':
+    'drop-shadow(0 1px 1px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.05)))',
+  'drop-shadow-sm':
+    'drop-shadow(0 1px 2px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15)))',
+  'drop-shadow-md':
+    'drop-shadow(0 3px 3px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.12)))',
+  'drop-shadow-lg':
+    'drop-shadow(0 4px 4px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15)))',
+  'drop-shadow-xl':
+    'drop-shadow(0 9px 7px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.1)))',
+  'drop-shadow-2xl':
+    'drop-shadow(0 25px 25px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.15)))',
   'blur-xs': 'blur(4px)',
   'blur-sm': 'blur(8px)',
   'blur-md': 'blur(12px)',
@@ -26,4 +28,5 @@ const filter = defineConsts({
 } as const)
 
 import { defineConsts } from '@stylexjs/stylex'
+import { defineVars } from '@stylexjs/stylex'
 //

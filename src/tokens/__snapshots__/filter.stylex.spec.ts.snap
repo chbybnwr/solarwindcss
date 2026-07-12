@@ -17,3 +17,10 @@ exports[`filter > matches snapshot 1`] = `
   "drop-shadow-xs": "drop-shadow(0 1px 1px var(--sw-drop-shadow-color, rgb(0 0 0 / 0.05)))",
 }
 `;
+
+exports[`filterVars > matches snapshot 1`] = `
+{
+  "--sw-drop-shadow-color": "var(--sw-drop-shadow-color)",
+  "__varGroupHash__": "x1uc28p5",
+}
+`;
