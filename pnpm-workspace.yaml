@@ -1,2 +1,5 @@
 allowBuilds:
   unrs-resolver: true
+minimumReleaseAgeExclude:
+  - vite@8.0.16
+  - '@babel/core@7.29.1'
