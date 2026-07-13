@@ -25,10 +25,10 @@ importers:
         specifier: ^8.0.3
         version: 8.0.3
       '@stylexjs/eslint-plugin':
-        specifier: ^0.18.3
+        specifier: ~0.18.3
         version: 0.18.3
       '@stylexjs/unplugin':
-        specifier: ^0.18.3
+        specifier: ~0.18.3
         version: 0.18.3(unplugin@2.3.11)
       '@stylistic/eslint-plugin':
         specifier: ^5.10.0
@@ -79,7 +79,7 @@ importers:
         specifier: ^3.9.5
         version: 3.9.5
       tsdown:
-        specifier: ^0.22.5
+        specifier: ~0.22.5
         version: 0.22.5(@typescript/native-preview@7.0.0-dev.20260415.1)(typescript@6.0.3)
       typescript:
         specifier: ^6.0.3
