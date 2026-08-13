@@ -1,9 +1,10 @@
 # aspectRatio
 
 ```markdown
-| Token             | Value  |
-| ----------------- | ------ |
-| aspectRatio.video | 16 / 9 |
+| Token              | Value  |
+| ------------------ | ------ |
+| aspectRatio.square | 1 / 1  |
+| aspectRatio.video  | 16 / 9 |
 ```
 
 ```tsx

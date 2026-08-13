@@ -2,6 +2,7 @@
 
 exports[`aspectRatio > matches snapshot 1`] = `
 {
+  "square": "1 / 1",
   "video": "16 / 9",
 }
 `;
