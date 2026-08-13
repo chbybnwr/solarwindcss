@@ -2,18 +2,18 @@
 
 exports[`atContainer > matches snapshot 1`] = `
 {
-  "2xl": "@container (width >= 42rem)",
-  "2xs": "@container (width >= 18rem)",
-  "3xl": "@container (width >= 48rem)",
-  "3xs": "@container (width >= 16rem)",
-  "4xl": "@container (width >= 56rem)",
-  "5xl": "@container (width >= 64rem)",
-  "6xl": "@container (width >= 72rem)",
-  "7xl": "@container (width >= 80rem)",
-  "lg": "@container (width >= 32rem)",
-  "md": "@container (width >= 28rem)",
-  "sm": "@container (width >= 24rem)",
-  "xl": "@container (width >= 36rem)",
-  "xs": "@container (width >= 20rem)",
+  "width >= 1024rpx": "@container (width >= calc(1024 * 0.625rem))",
+  "width >= 1152rpx": "@container (width >= calc(1152 * 0.625rem))",
+  "width >= 1280rpx": "@container (width >= calc(1280 * 0.625rem))",
+  "width >= 256rpx": "@container (width >= calc(256 * 0.625rem))",
+  "width >= 288rpx": "@container (width >= calc(288 * 0.625rem))",
+  "width >= 320rpx": "@container (width >= calc(320 * 0.625rem))",
+  "width >= 384rpx": "@container (width >= calc(384 * 0.625rem))",
+  "width >= 448rpx": "@container (width >= calc(448 * 0.625rem))",
+  "width >= 512rpx": "@container (width >= calc(512 * 0.625rem))",
+  "width >= 576rpx": "@container (width >= calc(576 * 0.625rem))",
+  "width >= 672rpx": "@container (width >= calc(672 * 0.625rem))",
+  "width >= 768rpx": "@container (width >= calc(768 * 0.625rem))",
+  "width >= 896rpx": "@container (width >= calc(896 * 0.625rem))",
 }
 `;

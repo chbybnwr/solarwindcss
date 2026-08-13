@@ -1,70 +1,34 @@
 export { atContainer }
 
+const rpx = '* 0.625rem'
+
 const atContainer = defineConsts({
-  /**
-   * ~256px
-   */
-  '3xs': '@container (width >= 16rem)',
-
-  /**
-   * ~288px
-   */
-  '2xs': '@container (width >= 18rem)',
-
-  /**
-   * ~320px
-   */
-  xs: '@container (width >= 20rem)',
-
-  /**
-   * ~384px
-   */
-  sm: '@container (width >= 24rem)',
-
-  /**
-   * ~448px
-   */
-  md: '@container (width >= 28rem)',
-
-  /**
-   * ~512px
-   */
-  lg: '@container (width >= 32rem)',
-
-  /**
-   * ~576px
-   */
-  xl: '@container (width >= 36rem)',
-
-  /**
-   * ~672px
-   */
-  '2xl': '@container (width >= 42rem)',
-
-  /**
-   * ~768px
-   */
-  '3xl': '@container (width >= 48rem)',
-
-  /**
-   * ~896px
-   */
-  '4xl': '@container (width >= 56rem)',
-
-  /**
-   * ~1024px
-   */
-  '5xl': '@container (width >= 64rem)',
-
-  /**
-   * ~1152px
-   */
-  '6xl': '@container (width >= 72rem)',
-
-  /**
-   * ~1280px
-   */
-  '7xl': '@container (width >= 80rem)',
+  /** 3xs */
+  'width >= 256rpx': `@container (width >= calc(256 ${rpx}))`,
+  /** 2xs */
+  'width >= 288rpx': `@container (width >= calc(288 ${rpx}))`,
+  /** xs */
+  'width >= 320rpx': `@container (width >= calc(320 ${rpx}))`,
+  /** sm */
+  'width >= 384rpx': `@container (width >= calc(384 ${rpx}))`,
+  /** md */
+  'width >= 448rpx': `@container (width >= calc(448 ${rpx}))`,
+  /** lg */
+  'width >= 512rpx': `@container (width >= calc(512 ${rpx}))`,
+  /** xl */
+  'width >= 576rpx': `@container (width >= calc(576 ${rpx}))`,
+  /** 2xl */
+  'width >= 672rpx': `@container (width >= calc(672 ${rpx}))`,
+  /** 3xl */
+  'width >= 768rpx': `@container (width >= calc(768 ${rpx}))`,
+  /** 4xl */
+  'width >= 896rpx': `@container (width >= calc(896 ${rpx}))`,
+  /** 5xl */
+  'width >= 1024rpx': `@container (width >= calc(1024 ${rpx}))`,
+  /** 6xl */
+  'width >= 1152rpx': `@container (width >= calc(1152 ${rpx}))`,
+  /** 7xl */
+  'width >= 1280rpx': `@container (width >= calc(1280 ${rpx}))`,
 } as const)
 
 import { defineConsts } from '@stylexjs/stylex'
