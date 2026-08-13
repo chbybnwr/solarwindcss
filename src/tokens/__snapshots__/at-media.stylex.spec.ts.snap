@@ -2,10 +2,10 @@
 
 exports[`atMedia > matches snapshot 1`] = `
 {
-  "2xl": "@media (width >= 96rem)",
-  "lg": "@media (width >= 64rem)",
-  "md": "@media (width >= 48rem)",
-  "sm": "@media (width >= 40rem)",
-  "xl": "@media (width >= 80rem)",
+  "width >= 1024rpx": "@media (width >= 1024 * 0.625rem)",
+  "width >= 1280rpx": "@media (width >= 1280 * 0.625rem)",
+  "width >= 1536rpx": "@media (width >= 1536 * 0.625rem)",
+  "width >= 640rpx": "@media (width >= 640 * 0.625rem)",
+  "width >= 768rpx": "@media (width >= 768 * 0.625rem)",
 }
 `;
