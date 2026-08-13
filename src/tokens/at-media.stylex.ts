@@ -13,6 +13,9 @@ const atMedia = defineConsts({
   'width >= 1280rpx': `@media (width >= 1280 ${rpx})`,
   /** 2xl */
   'width >= 1536rpx': `@media (width >= 1536 ${rpx})`,
+
+  'prefers-color-scheme: dark': '@media (prefers-color-scheme: dark)',
+  'prefers-color-scheme: light': '@media (prefers-color-scheme: light)',
 } as const)
 
 import { defineConsts } from '@stylexjs/stylex'

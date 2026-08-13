@@ -1,8 +1,0 @@
-// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
-
-exports[`atContainer > matches snapshot 1`] = `
-{
-  "dark": "@media (prefers-color-scheme: dark)",
-  "light": "@media (prefers-color-scheme: light)",
-}
-`;
