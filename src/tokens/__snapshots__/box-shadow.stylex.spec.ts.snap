@@ -2,29 +2,30 @@
 
 exports[`boxShadow > matches snapshot 1`] = `
 {
-  "2xl": "0 25px 50px -12px var(--sd-box-shadow-color, rgb(0 0 0 / 0.25))",
-  "2xs": "0 1px var(--sd-box-shadow-color, rgb(0 0 0 / 0.05))",
-  "inset-2xs": "inset 0 1px var(--sd-inset-box-shadow-color, rgb(0 0 0 / 0.05))",
-  "inset-ring": "inset 0 0 0 var(--sd-inset-ring-box-shadow-width, 1px) var(--sd-inset-ring-box-shadow-color, currentcolor)",
-  "inset-sm": "inset 0 2px 4px var(--sd-inset-box-shadow-color, rgb(0 0 0 / 0.05))",
-  "inset-xs": "inset 0 1px 1px var(--sd-inset-box-shadow-color, rgb(0 0 0 / 0.05))",
-  "lg": "0 10px 15px -3px var(--sd-box-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--sd-box-shadow-color, rgb(0 0 0 / 0.1))",
-  "md": "0 4px 6px -1px var(--sd-box-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--sd-box-shadow-color, rgb(0 0 0 / 0.1))",
-  "ring": "0 0 0 var(--sd-ring-box-shadow-width, 1px) var(--sd-ring-box-shadow-color, currentcolor)",
-  "sm": "0 1px 3px 0 var(--sd-box-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--sd-box-shadow-color, rgb(0 0 0 / 0.1))",
-  "xl": "0 20px 25px -5px var(--sd-box-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--sd-box-shadow-color, rgb(0 0 0 / 0.1))",
-  "xs": "0 1px 2px 0 var(--sd-box-shadow-color, rgb(0 0 0 / 0.05))",
+  "2xl": "0 25px 50px -12px var(--box-shadow-color, rgb(0 0 0 / 0.25))",
+  "2xs": "0 1px var(--box-shadow-color, rgb(0 0 0 / 0.05))",
+  "inset-2xs": "inset 0 1px var(--inset-box-shadow-color, rgb(0 0 0 / 0.05))",
+  "inset-ring": "inset 0 0 0 var(--inset-ring-box-shadow-width, 1px) var(--inset-ring-box-shadow-color, currentcolor)",
+  "inset-sm": "inset 0 2px 4px var(--inset-box-shadow-color, rgb(0 0 0 / 0.05))",
+  "inset-xs": "inset 0 1px 1px var(--inset-box-shadow-color, rgb(0 0 0 / 0.05))",
+  "lg": "0 10px 15px -3px var(--box-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--box-shadow-color, rgb(0 0 0 / 0.1))",
+  "md": "0 4px 6px -1px var(--box-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--box-shadow-color, rgb(0 0 0 / 0.1))",
+  "ring": "var(--ring-box-shadow-position, ) 0 0 0 var(--ring-box-shadow-width, 1px) var(--ring-box-shadow-color, currentcolor)",
+  "sm": "0 1px 3px 0 var(--box-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--box-shadow-color, rgb(0 0 0 / 0.1))",
+  "xl": "0 20px 25px -5px var(--box-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--box-shadow-color, rgb(0 0 0 / 0.1))",
+  "xs": "0 1px 2px 0 var(--box-shadow-color, rgb(0 0 0 / 0.05))",
 }
 `;
 
-exports[`boxShadowVars > matches snapshot 1`] = `
+exports[`boxShadowVar > matches snapshot 1`] = `
 {
-  "--sd-box-shadow-color": "var(--sd-box-shadow-color)",
-  "--sd-inset-box-shadow-color": "var(--sd-inset-box-shadow-color)",
-  "--sd-inset-ring-box-shadow-color": "var(--sd-inset-ring-box-shadow-color)",
-  "--sd-inset-ring-box-shadow-width": "var(--sd-inset-ring-box-shadow-width)",
-  "--sd-ring-box-shadow-color": "var(--sd-ring-box-shadow-color)",
-  "--sd-ring-box-shadow-width": "var(--sd-ring-box-shadow-width)",
-  "__varGroupHash__": "x1bcz36u",
+  "--box-shadow-color": "var(--box-shadow-color)",
+  "--inset-box-shadow-color": "var(--inset-box-shadow-color)",
+  "--inset-ring-box-shadow-color": "var(--inset-ring-box-shadow-color)",
+  "--inset-ring-box-shadow-width": "var(--inset-ring-box-shadow-width)",
+  "--ring-box-shadow-color": "var(--ring-box-shadow-color)",
+  "--ring-box-shadow-position": "var(--ring-box-shadow-position)",
+  "--ring-box-shadow-width": "var(--ring-box-shadow-width)",
+  "__varGroupHash__": "x1wmbdd0",
 }
 `;

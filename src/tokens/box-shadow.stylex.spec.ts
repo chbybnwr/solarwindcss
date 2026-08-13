@@ -4,14 +4,14 @@ describe('boxShadow', () => {
   })
 })
 
-describe('boxShadowVars', () => {
+describe('boxShadowVar', () => {
   it('matches snapshot', () => {
-    expect(boxShadowVars).toMatchSnapshot()
+    expect(boxShadowVar).toMatchSnapshot()
   })
 })
 
 import { boxShadow } from '#/tokens/box-shadow.stylex'
-import { boxShadowVars } from '#/tokens/box-shadow.stylex'
+import { boxShadowVar } from '#/tokens/box-shadow.stylex'
 import { describe } from 'vitest'
 import { expect } from 'vitest'
 import { it } from 'vitest'
