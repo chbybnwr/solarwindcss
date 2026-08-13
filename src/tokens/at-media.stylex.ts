@@ -16,6 +16,10 @@ const atMedia = defineConsts({
 
   'prefers-color-scheme: dark': '@media (prefers-color-scheme: dark)',
   'prefers-color-scheme: light': '@media (prefers-color-scheme: light)',
+
+  'prefers-reduced-motion': '@media (prefers-reduced-motion)',
+  'prefers-reduced-motion: no-preference':
+    '@media (prefers-reduced-motion: no-preference)',
 } as const)
 
 import { defineConsts } from '@stylexjs/stylex'
