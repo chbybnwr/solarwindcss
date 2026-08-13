@@ -36,18 +36,12 @@ function Example() {
 ## API
 
 - [Responsive Design](docs/responsive-design.md)
-- [Color Scheme](docs/color-scheme.md)
 - [Colors](docs/colors.md)
-- [Spacing](docs/spacing.md)
 
 ### Layout
 
 - [aspectRatio](docs/aspect-ratio.md)
 - [display](docs/display.md)
-
-### Sizing
-
-- [width](docs/width.md)
 
 ### Typography
 
@@ -62,7 +56,6 @@ function Example() {
 
 ### Borders
 
-- [borderRadius](docs/border-radius.md)
 - [outline](docs/outline.md)
 
 ### Effects & Filters
@@ -70,10 +63,6 @@ function Example() {
 - [boxShadow](docs/box-shadow.md)
 - [textShadow](docs/text-shadow.md)
 - [filter](docs/filter.md)
-
-### Transforms
-
-- [perspective](docs/perspective.md)
 
 ### Transitions & Animation
 
