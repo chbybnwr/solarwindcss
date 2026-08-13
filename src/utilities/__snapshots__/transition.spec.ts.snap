@@ -8,21 +8,21 @@ exports[`transition > matches snapshot 1`] = `
     "kAMwcw": "xh78lw0",
     "kIyJzY": "xx6bhzk",
   },
+  "basic": {
+    "$$css": true,
+    "k1ekBW": "x193rv6",
+    "kAMwcw": "xh78lw0",
+    "kIyJzY": "xx6bhzk",
+  },
   "boxShadow": {
     "$$css": true,
     "k1ekBW": "xkdsq27",
     "kAMwcw": "xh78lw0",
     "kIyJzY": "xx6bhzk",
   },
-  "colors": {
+  "coloring": {
     "$$css": true,
     "k1ekBW": "xtnl7vc",
-    "kAMwcw": "xh78lw0",
-    "kIyJzY": "xx6bhzk",
-  },
-  "default": {
-    "$$css": true,
-    "k1ekBW": "x193rv6",
     "kAMwcw": "xh78lw0",
     "kIyJzY": "xx6bhzk",
   },

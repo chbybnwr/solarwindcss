@@ -6,10 +6,7 @@ import { transitionTimingFunction } from '../tokens/transition-timing-function.s
 const transitionDuration = '150ms'
 
 const transition = create({
-  /**
-   * Enables transitions for properties that do not affect layout.
-   */
-  default: {
+  basic: {
     transitionDuration,
     transitionProperty:
       'color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events',
@@ -20,7 +17,7 @@ const transition = create({
     transitionProperty: 'all',
     transitionTimingFunction: transitionTimingFunction.easeInOut,
   },
-  colors: {
+  coloring: {
     transitionDuration,
     transitionProperty:
       'color, background-color, border-color, outline-color, text-decoration-color, fill, stroke',
