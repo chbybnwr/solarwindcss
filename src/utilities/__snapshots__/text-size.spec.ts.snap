@@ -42,15 +42,15 @@ exports[`textSize > matches snapshot 1`] = `
     "kGuDYH": "xdmcksh",
     "kLWn49": "xo5v014",
   },
-  "base": {
-    "$$css": true,
-    "kGuDYH": "x1cu2jee",
-    "kLWn49": "xwgoe2c",
-  },
   "lg": {
     "$$css": true,
     "kGuDYH": "x1kab52f",
     "kLWn49": "x1oilras",
+  },
+  "md": {
+    "$$css": true,
+    "kGuDYH": "x1t9r3lj",
+    "kLWn49": "xwgoe2c",
   },
   "sm": {
     "$$css": true,

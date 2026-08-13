@@ -12,8 +12,8 @@ const textSize = create({
     fontSize: fontSize.sm,
     lineHeight: 'calc(1.25 / 0.875)',
   },
-  base: {
-    fontSize: fontSize.base,
+  md: {
+    fontSize: fontSize.md,
     lineHeight: 'calc(1.5 / 1)',
   },
   lg: {
