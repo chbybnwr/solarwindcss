@@ -103,7 +103,7 @@ const eslintConfig = defineConfig([
   {
     name: 'unicorn',
     files: ['**/*.{js,jsx,ts,tsx,mjs,mjsx,mtsx,cjs}'],
-    extends: [unicornPlugin.configs.all],
+    extends: [unicornPlugin.configs.unopinionated],
     languageOptions: {
       globals: globals.builtin,
     },
