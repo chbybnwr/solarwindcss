@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`perspective > matches snapshot 1`] = `
+{
+  "distant": "1200px",
+  "dramatic": "100px",
+  "midrange": "800px",
+  "near": "300px",
+  "normal": "500px",
+}
+`;
