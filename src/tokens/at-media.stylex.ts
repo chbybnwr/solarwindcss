@@ -1,25 +1,17 @@
 export { atMedia }
 
-const rpx = '* 0.625rem'
-
 const atMedia = defineConsts({
-  /** sm */
-  'width >= 640rpx': `@media (width >= 640 ${rpx})`,
-  /** md */
-  'width >= 768rpx': `@media (width >= 768 ${rpx})`,
-  /** lg */
-  'width >= 1024rpx': `@media (width >= 1024 ${rpx})`,
-  /** xl */
-  'width >= 1280rpx': `@media (width >= 1280 ${rpx})`,
-  /** 2xl */
-  'width >= 1536rpx': `@media (width >= 1536 ${rpx})`,
+  sm: '@media (width >= 40rem)',
+  md: '@media (width >= 48rem)',
+  lg: '@media (width >= 64rem)',
+  xl: '@media (width >= 80rem)',
+  '2xl': '@media (width >= 96rem)',
 
-  'prefers-color-scheme: dark': '@media (prefers-color-scheme: dark)',
-  'prefers-color-scheme: light': '@media (prefers-color-scheme: light)',
-
-  'prefers-reduced-motion': '@media (prefers-reduced-motion)',
-  'prefers-reduced-motion: no-preference':
-    '@media (prefers-reduced-motion: no-preference)',
+  'max-sm': '@media (width < 40rem)',
+  'max-md': '@media (width < 48rem)',
+  'max-lg': '@media (width < 64rem)',
+  'max-xl': '@media (width < 80rem)',
+  'max-2xl': '@media (width < 96rem)',
 } as const)
 
 import { defineConsts } from '@stylexjs/stylex'

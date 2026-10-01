@@ -2,14 +2,15 @@
 
 exports[`atMedia > matches snapshot 1`] = `
 {
-  "prefers-color-scheme: dark": "@media (prefers-color-scheme: dark)",
-  "prefers-color-scheme: light": "@media (prefers-color-scheme: light)",
-  "prefers-reduced-motion": "@media (prefers-reduced-motion)",
-  "prefers-reduced-motion: no-preference": "@media (prefers-reduced-motion: no-preference)",
-  "width >= 1024rpx": "@media (width >= 1024 * 0.625rem)",
-  "width >= 1280rpx": "@media (width >= 1280 * 0.625rem)",
-  "width >= 1536rpx": "@media (width >= 1536 * 0.625rem)",
-  "width >= 640rpx": "@media (width >= 640 * 0.625rem)",
-  "width >= 768rpx": "@media (width >= 768 * 0.625rem)",
+  "2xl": "@media (width >= 96rem)",
+  "lg": "@media (width >= 64rem)",
+  "md": "@media (width >= 48rem)",
+  "sm": "@media (width >= 40rem)",
+  "width >= 1024rpx": "@media (width >= calc(1024 * 0.0625rem))",
+  "width >= 1280rpx": "@media (width >= calc(1280 * 0.0625rem))",
+  "width >= 1536rpx": "@media (width >= calc(1536 * 0.0625rem))",
+  "width >= 640rpx": "@media (width >= calc(640 * 0.0625rem))",
+  "width >= 768rpx": "@media (width >= calc(768 * 0.0625rem))",
+  "xl": "@media (width >= 80rem)",
 }
 `;
