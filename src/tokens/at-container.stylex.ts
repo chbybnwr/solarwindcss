@@ -1,34 +1,33 @@
 export { atContainer }
 
-const rpx = '* 0.625rem'
-
 const atContainer = defineConsts({
-  /** 3xs */
-  'width >= 256rpx': `@container (width >= calc(256 ${rpx}))`,
-  /** 2xs */
-  'width >= 288rpx': `@container (width >= calc(288 ${rpx}))`,
-  /** xs */
-  'width >= 320rpx': `@container (width >= calc(320 ${rpx}))`,
-  /** sm */
-  'width >= 384rpx': `@container (width >= calc(384 ${rpx}))`,
-  /** md */
-  'width >= 448rpx': `@container (width >= calc(448 ${rpx}))`,
-  /** lg */
-  'width >= 512rpx': `@container (width >= calc(512 ${rpx}))`,
-  /** xl */
-  'width >= 576rpx': `@container (width >= calc(576 ${rpx}))`,
-  /** 2xl */
-  'width >= 672rpx': `@container (width >= calc(672 ${rpx}))`,
-  /** 3xl */
-  'width >= 768rpx': `@container (width >= calc(768 ${rpx}))`,
-  /** 4xl */
-  'width >= 896rpx': `@container (width >= calc(896 ${rpx}))`,
-  /** 5xl */
-  'width >= 1024rpx': `@container (width >= calc(1024 ${rpx}))`,
-  /** 6xl */
-  'width >= 1152rpx': `@container (width >= calc(1152 ${rpx}))`,
-  /** 7xl */
-  'width >= 1280rpx': `@container (width >= calc(1280 ${rpx}))`,
+  '3xs': '@container (width >= 16rem)',
+  '2xs': '@container (width >= 18rem)',
+  xs: '@container (width >= 20rem)',
+  sm: '@container (width >= 24rem)',
+  md: '@container (width >= 28rem)',
+  lg: '@container (width >= 32rem)',
+  xl: '@container (width >= 36rem)',
+  '2xl': '@container (width >= 42rem)',
+  '3xl': '@container (width >= 48rem)',
+  '4xl': '@container (width >= 56rem)',
+  '5xl': '@container (width >= 64rem)',
+  '6xl': '@container (width >= 72rem)',
+  '7xl': '@container (width >= 80rem)',
+
+  'max-3xs': '@container (width < 16rem)',
+  'max-2xs': '@container (width < 18rem)',
+  'max-xs': '@container (width < 20rem)',
+  'max-sm': '@container (width < 24rem)',
+  'max-md': '@container (width < 28rem)',
+  'max-lg': '@container (width < 32rem)',
+  'max-xl': '@container (width < 36rem)',
+  'max-2xl': '@container (width < 42rem)',
+  'max-3xl': '@container (width < 48rem)',
+  'max-4xl': '@container (width < 56rem)',
+  'max-5xl': '@container (width < 64rem)',
+  'max-6xl': '@container (width < 72rem)',
+  'max-7xl': '@container (width < 80rem)',
 } as const)
 
 import { defineConsts } from '@stylexjs/stylex'
